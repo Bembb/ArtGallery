@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import Gallery from "../gallery";
 const Home = () => {
     return(
     <div className="App">
@@ -6,9 +6,10 @@ const Home = () => {
       <header className="App-header">
         <h1>Megan's Gallery</h1>
         <p>
-          Text here
+          Welcome to my art gallery! Art accessed through the Metropolitan Museum of Art Collection API.
         </p>
 
+        <Gallery/>
       </header>
     </div>
     )

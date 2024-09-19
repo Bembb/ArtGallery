@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+}
+
+.galleryItem{
+  width: 15%;
+  min-width: 200px; 
+  display: block;
+  padding: 7px;
+  margin: 10px;
+}
+
+.galleryItem p{
+  margin: auto;
+  font-size: 0.6em;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.galleryItem img {
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+body{
+  padding-bottom: 50px;
+  background-color: #282c34;
+
+}
+h1, p{
+  color: white;
+}
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.artPage {
+  margin: 20px;
+}
+.artPage img{
+  width: 90%;
+  display:block;
+  margin: auto;
 }
